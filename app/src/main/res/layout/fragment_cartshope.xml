@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Cart.CartshopeFragment">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_margin="8dp"
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        android:scaleType="fitXY"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/delivertwo" />
+    <LinearLayout
+
+        android:layout_below="@id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight=".25"
+            android:gravity="right"
+            android:text="@string/total"
+            android:textColor="#FF0303"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/my_toatly"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="2dp"
+            android:layout_weight=".75"
+            android:gravity="right"
+            android:text="0"
+            android:textColor="#ED0033"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:text="$"
+            android:textColor="#f00"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/car_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/confirm_buy_medicin"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/animation_view"
+         />
+
+    <Button
+        android:id="@+id/confirm_buy_medicin"
+        android:layout_margin="9dp"
+        android:text="confirm"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

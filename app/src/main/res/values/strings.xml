@@ -1,0 +1,565 @@
+<resources>
+    <string name="app_name">Covid 25</string>
+    <string name="open">open NavigationDrawer</string>
+    <string name="close">close NavigationDrawer</string>
+    <string name="buutin2">arabic</string>
+    <string name="buutin">English</string>
+
+    <string-array name="countries">
+        <item>"Cairo"</item>
+        <item>"Alexandria"</item>
+        <item>"Aswan"</item>
+        <item>"Asyut"</item>
+        <item>"Beheira"</item>
+        <item>"Beni Suef"</item>
+        <item>"Dakahlia"</item>
+        <item>"Damietta"</item>
+        <item>"Faiyum"</item>
+        <item>"Gharbi"</item>
+        <item>"Giza"</item>
+        <item>"Ismailia	"</item>
+        <item>"Kafr El Sheikh"</item>
+        <item>"Luxor"</item>
+        <item>"Matruh"</item>
+        <item>"Minya"</item>
+        <item>"Monufia"</item>
+        <item>"North Sinai"</item>
+        <item>"Port Said"</item>
+        <item>"Qalyubia"</item>
+        <item>"Qena"</item>
+        <item>"Red Sea"</item>
+        <item>"Sharqia"</item>
+        <item>"Sohag"</item>
+        <item>"South Sinai"</item>
+        <item>"Suez"</item>
+    </string-array>
+
+    <string-array name="countries_">
+        <item>"choose your city"</item>
+        <item>"Cairo"</item>
+        <item>"Alexandria"</item>
+        <item>"Aswan"</item>
+        <item>"Asyut"</item>
+        <item>"Beheira"</item>
+        <item>"Beni Suef"</item>
+        <item>"Dakahlia"</item>
+        <item>"Damietta"</item>
+        <item>"Faiyum"</item>
+        <item>"Gharbi"</item>
+        <item>"Giza"</item>
+        <item>"Ismailia"</item>
+        <item>"Kafr El Sheikh"</item>
+        <item>"Luxor"</item>
+        <item>"Matruh"</item>
+        <item>"Minya"</item>
+        <item>"Monufia"</item>
+        <item>"North Sinai"</item>
+        <item>"Port Said"</item>
+        <item>"Qalyubia	"</item>
+        <item>"Qena"</item>
+        <item>"Red Sea"</item>
+        <item>"Sharqia"</item>
+        <item>"Sohag"</item>
+        <item>"South Sinai"</item>
+        <item>"Suez"</item>
+    </string-array>
+    <string-array name="Minya">
+        <item>"choose your district "</item>
+        <item>"Magaga"</item>
+        <item>"Bani Mazar"</item>
+        <item>"Matay"</item>
+        <item>"Samalout"</item>
+        <item>"The city of Minya"</item>
+        <item>"Abu Qurqas"</item>
+        <item>"Mallawy"</item>
+        <item>"Mawas"</item>
+    </string-array>
+    <string-array name="Sohag">
+        <item>"choose your district "</item>
+        <item>"Sohag"</item>
+        <item>"Dar Al Salam"</item>
+        <item>"Akhmim"</item>
+        <item>"Maragha"</item>
+        <item>"Gerga"</item>
+        <item>"Tahta"</item>
+        <item>"Tama"</item>
+    </string-array>
+    <string-array name="Suez">
+        <item>"choose your district "</item>
+        <item>"Suez district"</item>
+        <item>"Arbaeen district"</item>
+        <item>"Ataqa district"</item>
+        <item>"Al-Ganayen District"</item>
+        <item>"Faisal district"</item>
+    </string-array>
+    <string-array name="SouthSinai">
+        <item>"choose your district "</item>
+        <item>"Abu Rudeis"</item>
+        <item>"Abu Zenima"</item>
+        <item>"Nuweiba"</item>
+        <item>"Dahab"</item>
+        <item>"Ras Sidr"</item>
+        <item>"Sharm El-Shaikh"</item>
+        <item>"Saint Catherine"</item>
+        <item>"AL Tour"</item>
+    </string-array>
+
+    <string-array name="RedSea">
+        <item>"choose your district"</item>
+        <item>"Ras Gharib"</item>
+        <item>"Hurghada"</item>
+        <item>"Safaga"</item>
+        <item>"AL Kaser"</item>
+        <item>"Marsa Alam"</item>
+        <item>"Shalateen-and-Halayeb"</item>
+    </string-array>
+    <string-array name="Sharqia">
+        <item>"choose your district"</item>
+        <item>"Zagazig"</item>
+        <item>"Husseinieh city"</item>
+        <item>"The city of Faqous"</item>
+        <item>"The city of Belbeis"</item>
+        <item>"The city of Minya al-Qamh"</item>
+        <item>"The city of Abu Hammad"</item>
+        <item>"City of Saqr Sons"</item>
+        <item>"Tenth of Ramadan City"</item>
+    </string-array>
+    <string-array name="Qena">
+        <item>"choose your district "</item>
+        <item>"Farshout"</item>
+        <item>"Nag Hammadi"</item>
+        <item>"West of Qena"</item>
+        <item>"qous"</item>
+        <item>"Deshna"</item>
+        <item>"Al wakf"</item>
+    </string-array>
+
+    <string-array name="PortSaid">
+        <item>"choose your district "</item>
+        <item>"The city of Port Fouad"</item>
+        <item>"South district"</item>
+        <item>"Arab district"</item>
+        <item>"East District"</item>
+        <item>"Al-Dawahi District"</item>
+        <item>"Al-Manakh district"</item>
+        <item>"Al Zohoer"</item>
+    </string-array>
+    <string-array name="Qalyubia">
+        <item>"choose your district "</item>
+        <item>"Benha"</item>
+        <item>"Qalyoub"</item>
+        <item>"Al-Kanater Al-kharya"</item>
+        <item>"Shubra Al Khaimah"</item>
+        <item>"Khanka"</item>
+        <item>"Kafr Shukr"</item>
+        <item>"Shibin Al-Kanater "</item>
+        <item>"Tookh"</item>
+    </string-array>
+
+    <string-array name="NorthSinai">
+        <item>"choose your district "</item>
+        <item>"Bir al-Abed"</item>
+        <item>"Nakhl"</item>
+        <item>"Al hasna"</item>
+        <item>"Arish"</item>
+        <item>"Sheikh Zuweid"</item>
+        <item>"Rafah"</item>
+    </string-array>
+    <string-array name="cairo_district">
+        <item>"choose your district "</item>
+        <item>"As-Salam district first"</item>
+        <item>"As-Salam second district"</item>
+        <item>"Al-Al-Mataria District"</item>
+        <item>"Al-Nuzha District"</item>
+        <item>"Ain Shams district"</item>
+        <item>"East Nasr City district"</item>
+        <item>"West Nasr City district"</item>
+        <item>"Heliopolis  district"</item>
+        <item>"Azbika district"</item>
+        <item>"Mosky  district "</item>
+        <item>"Waili District"</item>
+        <item>"Bab Al-Sharia District"</item>
+        <item>"Bulaq district"</item>
+        <item>"Abdeen district"</item>
+        <item>"Manshaet Nasser district "</item>
+        <item>"West district"</item>
+        <item>"Central district"</item>
+        <item>"May 15th district"</item>
+        <item>"Al-Basatine  district "</item>
+        <item>"Al-Tebeen District"</item>
+        <item>"Caliph district"</item>
+        <item>"El Sayeda Zeinab district"</item>
+        <item>"Maadi District"</item>
+        <item>"Al-Maasara District "</item>
+        <item>"Mokattam district"</item>
+        <item>"Helwan district"</item>
+        <item>"Dar Al Salam district"</item>
+        <item>"Tora district"</item>
+        <item>"Old Cairo District"</item>
+        <item>"Al-Amiriya  district"</item>
+        <item>"Al-Zawiya Al-Hamra district"</item>
+        <item>"Al-Zaytoun District"</item>
+        <item>"Al-Sahel  District "</item>
+        <item>"Sharabia district "</item>
+        <item>"Hadayek al-Qobba district"</item>
+        <item>"Rawd al-Farag district"</item>
+        <item>"Shubra district district"</item>
+    </string-array>
+    <string-array name="Alexandria">
+        <item>"choose your district "</item>
+        <item>"Central Alexandria District"</item>
+        <item>"East Alexandria District"</item>
+        <item>"West Alexandria District"</item>
+        <item>"Al-Muntazah District "</item>
+        <item>"Customs District "</item>
+        <item>"Amiriya District"</item>
+    </string-array>
+    <string-array name="Faiyum">
+        <item>"choose your district "</item>
+        <item>"Ibshway"</item>
+        <item>"Tamiya"</item>
+        <item>"Fayoum"</item>
+        <item>"Atsa"</item>
+        <item>"Snores"</item>
+        <item>"AL Fayoum Al gedada"</item>
+        <item>"Youessf Al sedak"</item>
+    </string-array>
+    <string-array name="Monufia">
+        <item>"choose your district "</item>
+        <item>"Ashmoun"</item>
+        <item>"The Bagour"</item>
+        <item>"Barkt Al Sabh"</item>
+        <item>"Menouf"</item>
+        <item>"Sadat"</item>
+        <item>"Tala"</item>
+        <item>"Al Shhdea"</item>
+        <item>"Shbeen El Koom"</item>
+        <item>"Quesna"</item>
+    </string-array>
+
+    <string-array name="Aswan">
+        <item>"choose your district "</item>
+        <item>"Edfu District"</item>
+        <item>"Draw District"</item>
+        <item>"Aswan District"</item>
+        <item>"Victory of Nuba District"</item>
+    </string-array>
+    <string-array name="Luxor">
+        <item>"choose your district"</item>
+        <item>"Luxor"</item>
+        <item>"Zinnia Center"</item>
+        <item>"Qurna"</item>
+        <item>"Bayadeya"</item>
+        <item>"Tud"</item>
+        <item>"Armant"</item>
+    </string-array>
+    <string-array name="Matruh">
+        <item>"choose your district"</item>
+        <item>"AL hamam"</item>
+        <item>"El Alamein"</item>
+        <item>"El Dabaa"</item>
+        <item>"Marsa Matrouh"</item>
+        <item>"Najela"</item>
+        <item>"Prani"</item>
+        <item>"Salloum"</item>
+        <item>"Siwa"</item>
+    </string-array>
+
+    <string-array name="Ismailia">
+        <item>"choose your district "</item>
+        <item>"Ismailia"</item>
+        <item>Al Tall Al Kaberر"</item>
+        <item>"Fayed"</item>
+        <item>"Qantara East"</item>
+        <item>"Qantara West"</item>
+        <item>"Abu Swear"</item>
+        <item>"Al Kasisen"</item>
+    </string-array>
+
+    <string-array name="KafrElSheikh">
+        <item>"Kafr El Sheikh"</item>
+        <item>"Burullus"</item>
+        <item>"Bella"</item>
+        <item>"Al Hamol"</item>
+        <item>"Desouq"</item>
+        <item>"Al Riyadh"</item>
+        <item>"Sir Salm"</item>
+        <item>"foh"</item>
+        <item>"Qaleen"</item>
+        <item>"Kafr El Sheikh"</item>
+        <item>"Motobs"</item>
+    </string-array>
+
+    <string-array name="Asyut">
+        <item>"choose your district "</item>
+        <item>"Assiut center and city"</item>
+        <item>"Dayrout center and city"</item>
+        <item>"Qusiya center and city"</item>
+        <item>"Abnoub center and city"</item>
+        <item>"The center and city of Manfalut "</item>
+        <item>"The center and city of Abu Tig"</item>
+        <item>"Al-Ghanayem Center and City"</item>
+        <item>"The center and city of Sahel Salim"</item>
+        <item>"Al Badari Center and City"</item>
+        <item>"Sadfa city and center"</item>
+        <item>"Al-Fath center and city"</item>
+    </string-array>
+
+    <string name="symptoms">Symptoms</string>
+    <string name="prevention">Prevention</string>
+    <string name="cough">cough</string>
+    <string name="sneezing">sneezing</string>
+    <string name="headache">headache</string>
+    <string name="sore_throat">sore throat</string>
+    <string name="tiredness"> tiredness</string>
+    <string name="fever"> fever</string>
+    <string name="three">The World Health Organization recommends the use of masks in a frame A comprehensive package of measures to prevent infection with the Coronavirus</string>
+    <string name="two">Regular hand washing provides more protection from Covid-19 disease than wearing rubber gloves</string>
+    <string name="one">Covid-19 disease,it is safest to avoid physical contact when greeting Waving the hand, nodding the head, or bowing is a safe method.</string>
+    <string name="home">Home</string>
+    <string name="lab">Lab</string>
+    <string name="hospital">Hospital</string>
+    <string name="pharmacy">pharmacy</string>
+    <string name="motivational_stories">Motivational stories</string>
+    <string name="sign_out">sign out</string>
+    <string name="settings">settings</string>
+    <string name="share_your_story">Share your story</string>
+    <string name="case_update_in_egypte">Case Update in Egypte</string>
+    <string name="case_update1">Case Update</string>
+    <string name="case_update_in_world">Case Update in world</string>
+    <string name="case_update2">Case Update</string>
+    <string name="check_your_city">check your city</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="new_confirmed">New Confirmed</string>
+    <string name="total_confirmed">Total Confirmed</string>
+    <string name="total_recoverd">Total Recoverd</string>
+    <string name="please_stay_home">please stay home</string>
+    <string name="please_be_carfull">be carefull</string>
+    <string name="please_go_out">go out </string>
+    <string-array name="Beheira">
+        <item>"choose your district "</item>
+        <item>"Rasheed"</item>
+        <item>"Shoubrakhit"</item>
+        <item>"Itai gunpowder"</item>
+        <item>"Abu Hummus"</item>
+        <item>"hoash Isa"</item>
+        <item>"Kafr al-Dawwar"</item>
+        <item>"اDelicatessen"</item>
+        <item>"Com Hamada"</item>
+        <item>"Damanhur"</item>
+        <item>"Mahmoudia"</item>
+        <item>"Edco"</item>
+        <item>"Abu al-Matamir"</item>
+        <item>"Rahmaniyah"</item>
+        <item>"New Nubaria"</item>
+        <item>"Wadi Natrun"</item>
+        <item>badr"</item>
+    </string-array>
+
+    <string-array name="Beni_Suef">
+        <item>"choose your district "</item>
+        <item>"Al Wasta"</item>
+        <item>"Bani Sweif"</item>
+        <item>"Nasser (Bush)"</item>
+        <item>"Ihnasia"</item>
+        <item>"BBA"</item>
+        <item>"Simsta"</item>
+        <item>"اAl Fashn"</item>
+        <item>"New Beni Suef"</item>
+    </string-array>
+    <string-array name="Dakahlia">
+        <item>"choose your district "</item>
+        <item>"Mansoura"</item>
+        <item>"Senbellawein"</item>
+        <item>"meat game"</item>
+        <item>"Al Matrya"</item>
+        <item>"Belqas"</item>
+        <item>"Dikirnis"</item>
+        <item>"Al manzala"</item>
+        <item>"Talkha"</item>
+        <item>"Al gamalya"</item>
+        <item>"Manyt Alnaser</item>
+        <item>"Sherbin"</item>
+        <item>"Tame Al Amdid"</item>
+        <item>"Bani Obaid"</item>
+        <item>"Aja"</item>
+        <item>"Akhtab"</item>
+        <item>"Nabroa"</item>
+    </string-array>
+
+    <string-array name="Damietta">
+        <item>"choose your district "</item>
+        <item>"Damietta"</item>
+        <item>"Farscore"</item>
+        <item>"AL Zarka"</item>
+        <item>"Kafr Saad"</item>
+        <item>"Kafr al-Battikh"</item>
+    </string-array>
+    <string-array name="Giza">
+        <item>"choose your district "</item>
+        <item>"المهندسين"</item>
+        <item>"Agouza"</item>
+        <item>" Kit Kat"</item>
+        <item>"Imbaba"</item>
+        <item>"Warraq"</item>
+        <item>"Warraq Arabs"</item>
+        <item>"Doki"</item>
+        <item>"University Square"</item>
+        <item>"the Zoo"</item>
+        <item>"Giza Square"</item>
+        <item>"Pyramid"</item>
+        <item>"Faisal"</item>
+        <item>"Omrania"</item>
+    </string-array>
+
+    <string-array name="Gharbi">
+        <item>"choose your district "</item>
+        <item>"Kafr El Zayat"</item>
+        <item>"Al Santa"</item>
+        <item>"Al-Mahalla Al-Kobra"</item>
+        <item>"Basyoun"</item>
+        <item>"Zefta"</item>
+        <item>"Samanoud"</item>
+        <item>"Tanta"</item>
+        <item>"Qutor"</item>
+    </string-array>
+
+    <string name="pharmacy_mohamed_morad">Dr.Muhammad Murad</string>
+    <string name="pharmacy_mohamed_morad_address">6th of October St.- Ain Shams, next to El Nozha Central, Al Nakhil Club, Garage</string>
+    <string name="pharmacy_mohamed_morad_phone">02-20986675</string>
+    <string name="pharmacy_mohamed_morad_phone_wh">01152677565</string>
+
+    <string name="lab_Abdel_Naby">Dr.Abdel Naby</string>
+    <string name="lab_Abdel_Naby_address">Al-Marj -123 Al-Mahatta St., in front of the old Al-Marg metro</string>
+    <string name="lab_Abdel_Naby_phone">01003373900</string>
+    <string name="lab_Abdel_Naby_phone_wh">01150622323</string>
+
+    <string name="hospital_name">Demerdash Hospital</string>
+    <string name="hospital_address">Demerdash, Demerdash, Waili, Cairo Governorate</string>
+    <string name="hospital_phone">02 24346001</string>
+    <string name="hospital_phone_wh">0226821098 </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="supplies">Supplies</string>
+    <string name="medicine">medicine</string>
+    <string name="medicine_Rivarospire">Rivarospire</string>
+    <string name="medicine_Rivarospire_des">It is an anticoagulant that prevents the activation of platelets and thus prevents the formation of clots by inhibiting the clotting factor</string>
+
+    <string name="medicine_Iverzine">Iverzine</string>
+    <string name="medicine_Iverzine_des">Anti-tissue used to treat insomnia caused by certain parasites, and it is also effective in fighting diseases such as dengue fever</string>
+    <string name="all_vent">all_vent</string>
+    <string name="all_vent_des">
+    The drug is used to treat coughing associated with some respiratory diseases, such as: chronic bronchitis, colds and influenza
+    </string>
+    <string name="ennervita">ennervita</string>
+    <string name="ennervita_des">
+  A food supplement used to treat or prevent vitamin and mineral deficiencies due to poor diet or certain diseases.
+Supporting the health
+    </string>
+    <string name="superx">superx</string>
+    <string name="superx_des">
+ Inflammation of the tonsils, throat, pharynx, or larynx Bronchitis pneumonia
+    </string>
+    <string name="Targo">Targo</string>
+    <string name="Targo_des">
+An antibiotic used for respiratory, urinary and intestinal infections
+    </string>
+    <string name="Solupred">Solupred </string>
+    <string name="Solupred_des">
+Patients with severe Covid-19 disease may be exposed to infections that may occur in the lung or other parts of the body
+    </string>
+
+    <string name="al_mogat_al_sawtiya">Al mogat Al sawtiya</string>
+    <string name="normal_rays">Normal rays</string>
+    <string name="ct_scan">CT scan</string>
+
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="log_in">LOG In !</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="do_not_have_an_account">do not have an account</string>
+    <string name="create">create</string>
+    <string name="log_in_">Log in</string>
+    <string name="full_name">full name</string>
+    <string name="email_address">email address</string>
+    <string name="password_">password</string>
+    <string name="street_address">Street Address</string>
+    <string name="join_us">join us</string>
+    <string name="phone">phone</string>
+
+    <string name="Mask">Mask</string>
+    <string name="faceprotection">Face-Mask</string>
+    <string name="glovestion">Gloves</string>
+    <string name="sanitizer">Sanitizer</string>
+    <string name="order">Order</string>
+    <string name="mostafa">mostafa</string>
+    <string name="cancel">cancel</string>
+    <string name="yes">yes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="cartshope">Cartshope</string>
+    <string name="mostafa_">mostafa</string>
+    <string name="count">count:</string>
+    <string name="total_price">total price:</string>
+    <string name="total">total Price:</string>
+    <string name="chest">chest scan</string>
+    <string name="chest_ava_day">today in 1pm</string>
+    <string name="book_now">book now</string>
+    <string name="waiting_time">waiting time:</string>
+    <string name="price">price:</string>
+    <string name="pound">pound</string>
+    <string name="scan_name">scan name</string>
+    <string name="available">Available:</string>
+    <string name="minute">minute</string>
+    <string name="abdomen_ava">today in 1pm</string>
+    <string name="abdomen">scan on the abdomen or pelvis</string>
+    <string name="neck">sectional on the neck</string>
+    <string name="neck_ava">today in 1pm</string>
+    <string name="eye">sectional on the eye</string>
+    <string name="teeth">Normal rays on the teeth</string>
+    <string name="skull">Normal rays on the skull</string>
+    <string name="hip">Normal rays on the hip</string>
+    <string name="intestines">Rays with barium on the stomach and intestines</string>
+    <string name="Sound">Sound waves on the abdomen</string>
+    <string name="Sound_neck">Sound waves on the neck</string>
+    <string name="Sound_eye">Sound waves on the eye</string>
+    <string name="Sound_brain">Sound waves on the brain</string>
+    <string name="patient_name">Patient name</string>
+    <string name="patient_age">Patient age</string>
+    <string name="patient_phone">patient phone</string>
+    <string-array name="book_time">
+        <item>"available time"</item>
+        <item>"1pm"</item>
+        <item>"2pm"</item>
+        <item>"3pm"</item>
+        <item>"4pm"</item>
+        <item>"5pm"</item>
+        <item>"6pm"</item>
+        <item>"7pm"</item>
+        <item>"8pm"</item>
+        <item>"9pm"</item>
+        <item>"10pm"</item>
+        <item>"11pm"</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="total_pricec">total price</string>
+    <string name="title_activity_live_tracting">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_price">scan price:</string>
+    <string name="scan_reservation_time">scan reservation time:</string>
+    <string name="scan_waiting_time">scan waiting time:</string>
+    <string name="customer_name">customer name:</string>
+    <string name="customer_phone">customer phone:</string>
+    <string name="customer_age">customer age:</string>
+    <string name="news">news</string>
+    <string name="your_name">your name</string>
+    <string name="your_phone">your phone</string>
+    <string name="your_address">your address</string>
+    <string name="your_age">your age</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="confirm">confirm</string>
+    <string name="map">Map</string>
+</resources>

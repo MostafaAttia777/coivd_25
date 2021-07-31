@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="25dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+
+        <TextView
+            android:id="@+id/name_text_lab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="fantasy"
+            android:text=" h:ain shames al am ta5sosy"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/tnt_lin_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_text_lab"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/address_text_lab"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_text_lab"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".80"
+                android:fontFamily="fantasy"
+                android:text=" h:ain shames al am ta5sosy"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_loca_lab"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/name_text_lab"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@id/name_text_lab"
+                android:layout_weight=".20"
+                android:src="@drawable/ic_pin_loc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two_lay_lab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tnt_lin_lab"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/phone_text_lab"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tnt_lin_lab"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".80"
+                android:fontFamily="fantasy"
+                android:text=" h:ain shames al am ta5sosy"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ph_phones_lab"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/tnt_lin_lab"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/phone_text_lab"
+                android:layout_toRightOf="@id/phone_text_lab"
+                android:layout_weight=".20"
+                android:src="@drawable/ic_call" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/two_lay_lab"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/phone_text_lab_wh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tnt_lin_lab"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".80"
+                android:fontFamily="fantasy"
+                android:text=" h:ain shames al am ta5sosy"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/ph_phones_wh_lab"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/tnt_lin_lab"
+                android:layout_marginTop="18dp"
+                android:layout_toEndOf="@id/phone_text_lab"
+                android:layout_toRightOf="@id/phone_text_lab"
+                android:layout_weight=".20"
+                android:src="@drawable/ic_whatsapp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MostafaCovied.Mostafacovied">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_bacg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_bacg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Demerdash.Show_book_room"></activity>
+        <activity android:name=".Demerdash.Demerdash_Administration" />
+        <activity android:name=".Demerdash.book_room_in_hospital" />
+        <activity android:name=".Demerdash.Demerdash_home" />
+        <activity android:name=".News_Activity.Open_news" />
+        <activity android:name=".Abd_Lab_admin.Show_orders_of_users_Lab" />
+        <activity android:name=".Abd_Lab_admin.Lab_amdin_home" />
+        <activity android:name=".Muradpharmacy.Show_orders_of_users_ph" />
+        <activity android:name=".Muradpharmacy.Muradpharmacy" />
+        <activity android:name=".Ministry.Health_of_egypt" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Tracing.live_tracting"
+            android:label="@string/title_activity_live_tracting" />
+        <activity android:name=".Cart.confirm_order_medicin" />
+        <activity
+            android:name=".Places.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Book_now" />
+        <activity android:name=".CT_scan.CT_scan" />
+        <activity android:name=".Normal_rays.Normal_Rays" />
+        <activity android:name=".mogat.Mogat_sawtiya" />
+        <activity android:name=".Activity.Abd_Lab" />
+        <activity android:name=".Activity.Medical_Supplies" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Login.CreateAccount" />
+        <activity android:name=".Login.LoginScreen" />
+        <activity android:name=".Login.Spleash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Home_Screen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

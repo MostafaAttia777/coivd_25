@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="_____________________________________">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/my_home_page"
+                    android:icon="@drawable/ic_mortgage"
+                    android:title="@string/home" />
+                <item
+                    android:id="@+id/my_city"
+                    android:icon="@drawable/ic_coronavirus"
+                    android:title="@string/check_your_city" />
+                <item
+                    android:id="@+id/my_lab"
+                    android:icon="@drawable/ic_microscope"
+                    android:title="@string/lab" />
+                <item
+                    android:id="@+id/my_hospital"
+                    android:icon="@drawable/ic_hospital_one"
+                    android:title="@string/hospital" />
+                <item
+                    android:id="@+id/my_pharmacy"
+                    android:icon="@drawable/ic_pharmacy"
+                    android:title="@string/pharmacy" />
+                <item
+                    android:id="@+id/my_location"
+                    android:icon="@drawable/ic_location"
+                    android:title="@string/map" />
+                <item
+                    android:id="@+id/newspaper"
+                    android:icon="@drawable/newspaper"
+                    android:title="@string/news" />
+                <item
+                    android:id="@+id/Cartshope"
+                    android:icon="@drawable/ic_carton"
+                    android:title="@string/cartshope" />
+
+            </group>
+        </menu>
+    </item>
+
+
+   <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/out"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/sign_out" />
+</menu>

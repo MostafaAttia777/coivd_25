@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="25dp"
+
+    app:cardMaxElevation="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/order"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageView
+
+            android:id="@+id/custome_di"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tit"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_carton" />
+
+        <TextView
+
+            android:id="@+id/name_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/custome_di"
+            android:layout_toEndOf="@id/custome_di"
+            android:text="@string/mostafa"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cont_medicine"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/name_dialog"
+            android:layout_toEndOf="@id/name_dialog"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cont_medicine"
+            android:layout_toRightOf="@id/custome_di"
+            android:layout_toEndOf="@id/custome_di"
+            android:orientation="horizontal"
+            android:weightSum=".5">
+
+            <Button
+                android:id="@+id/no_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight=".30"
+                android:background="#000"
+                android:text="@string/cancel"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/okay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight=".20"
+                android:background="#000"
+                android:text="@string/yes"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

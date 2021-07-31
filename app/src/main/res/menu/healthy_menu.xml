@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_Users"
+        android:icon="@drawable/ic_location"
+        android:title="Tracking Users" />
+
+    <item
+        android:id="@+id/Cases"
+        android:icon="@drawable/ic_coronavirus"
+        android:title="Coronavirus cases" />
+    <item
+        android:id="@+id/out_healthy"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/sign_out" />
+
+</menu>

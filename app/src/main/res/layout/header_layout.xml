@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_menu"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ss"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/name_menu"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Mostafa attia"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/emial_menu"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:textStyle=""
+        android:textSize="19sp"
+        android:textColor="#000000"
+        android:text="Mostafaattia119@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="open">open NavigationDrawer</string>
+    <string name="close">close NavigationDrawer</string>
+    <string name="app_name">كوفيد 25</string>
+    <string name="buutin2">عربي</string>
+    <string name="buutin">انجليزي</string>
+    <string name="symptoms">الاعراض</string>
+    <string name="prevention">الوقاية</string>
+    <string name="cough">سعال</string>
+    <string name="sneezing">العطس</string>
+    <string name="headache">صداع الراس</string>
+    <string name="sore_throat">إلتهاب الحلق</string>
+    <string name="tiredness">تعب</string>
+    <string name="fever">حمى</string>
+    <string name="one">مرض كوفيد -19 ، من الأسلم تجنب الاتصال الجسدي عند التحية إن التلويح باليد أو الإيماء بالرأس أو الركوع طريقة آمنة</string>
+    <string name="two">يوفر غسل اليدين بانتظام حماية أكبر من مرض كوفيد -19 أكثر من ارتداء القفازات المطاطية</string>
+    <string name="three">توصي منظمة الصحة العالمية باستخدام الأقنعة في إطار حزمة شاملة من الإجراءات للوقاية من الإصابة بفيروس كوروناة</string>
+    <string name="home">الرئيسيه</string>
+    <string name="lab">المعامل</string>
+    <string name="hospital">المستشفيات</string>
+    <string name="pharmacy">الصيدليات</string>
+    <string name="motivational_stories">قصص تحفيزية</string>
+    <string name="sign_out">الخروج</string>
+    <string name="settings">الاعدادات</string>
+    <string name="share_your_story">شارك قصتك</string>
+    <string name="supplies">مستلزمات طبية</string>
+    <string name="medicine">ادويه</string>
+    <string-array name="countries_">
+        <item>"اختار محافظتك"</item>
+        <item>"القاهرة"</item>
+        <item>"الاسكندرية"</item>
+        <item>"اسوان"</item>
+        <item>"اسيوط"</item>
+        <item>"البحيرة"</item>
+        <item>"بني سويف"</item>
+        <item>"الدقهلية"</item>
+        <item>"دمياط"</item>
+        <item>"الفيوم"</item>
+        <item>"الغربية"</item>
+        <item>"الجيزة"</item>
+        <item>"الاسماعلية"</item>
+        <item>"كفر الشيخ"</item>
+        <item>"الاقصر"</item>
+        <item>"مطروح"</item>
+        <item>"المنيا"</item>
+        <item>"المنوفية"</item>
+        <item>"شمال سينا"</item>
+        <item>"بورسعيد"</item>
+        <item>"القليوبية"</item>
+        <item>"قنا"</item>
+        <item>"البحر الاحمر"</item>
+        <item>"الشرقية"</item>
+        <item>"سوهاج"</item>
+        <item>"جنوب سينا"</item>
+        <item>"السويس"</item>
+    </string-array>
+    <string name="case_update_in_egypte">اعداد الحالات اليوم في مصر</string>
+    <string name="case_update1">Case Update</string>
+    <string name="case_update_in_world">عدد المصابين بكورونا في العالم</string>
+    <string name="case_update2">Case Update</string>
+    <string name="check_your_city">افحص مدينتك</string>
+    <string name="total_deaths">حالات الوفاة</string>
+    <string name="new_confirmed">الحالات الجديدة</string>
+    <string name="total_confirmed">اجمالي عدد المصابين</string>
+    <string name="total_recoverd">اجمالي عدد المتعافين</string>
+    <string name="please_stay_home">برجاء عدم الخروج من المنزل</string>
+    <string name="please_be_carfull">برجاء اخذ الحذر</string>
+    <string name="please_go_out">يمكنك الخرج </string>
+    <string-array name="cairo_district">
+        <item>"اختار الحي"</item>
+        <item>"حي السلام أول"</item>
+        <item>"حي السلام ثاني"</item>
+        <item>"حي المطرية"</item>
+        <item>"حي النزهة"</item>
+        <item>"حي عين شمس"</item>
+        <item>"حي مدينة نصر شرق"</item>
+        <item>"حي مدينة نصر غرب"</item>
+        <item>"حي مصر الجديدة"</item>
+        <item>"حي الازبكية"</item>
+        <item>"حي الموسكي"</item>
+        <item>"حي الوايلي"</item>
+        <item>"حي باب الشعراية"</item>
+        <item>"حي بولاق"</item>
+        <item>"حي عابدية"</item>
+        <item>"حي منشاة ناصر"</item>
+        <item>"حي غرب"</item>
+        <item>"حي وسط"</item>
+        <item>"حي 15 مايو"</item>
+        <item>"حي البساتين"</item>
+        <item>"حي التبين"</item>
+        <item>"حي الخليفة"</item>
+        <item>"حي السيدة زينب"</item>
+        <item>"حي المعادي"</item>
+        <item>"حي المعصرة"</item>
+        <item>"حي المقطم"</item>
+        <item>"حي حلوان"</item>
+        <item>"حي دار السلام"</item>
+        <item>"حي طرة"</item>
+        <item>"حي مصر القديمة"</item>
+        <item>"حي الاميرية"</item>
+        <item>"حي الزاوية الحمراء"</item>
+        <item>"حي الزيتون"</item>
+        <item>"حي الساحل"</item>
+        <item>"حي الشرابية"</item>
+        <item>"حي حدائق القبة"</item>
+        <item>"حي ؤوض الفرج"</item>
+        <item>"حي شبرا"</item>
+    </string-array>
+    <string-array name="Alexandria">
+        <item>"اختار الحي"</item>
+        <item>"حي وسط اسكندرية"</item>
+        <item>"حي شرق اسكندرية"</item>
+        <item>"حي غرب اسكندرية"</item>
+        <item>حي المنتزه"</item>
+        <item>حي الجمرك"</item>
+        <item>حي العامرية"</item>
+    </string-array>
+    <string-array name="Aswan">
+        <item>"اختار مدينتك"</item>
+        <item>"إدفو"</item>
+        <item>"كوم امبو"</item>
+        <item>"أسوان"</item>
+        <item>"نصر النوبة"</item>
+    </string-array>
+
+    <string-array name="Asyut">
+        <item>"اختار مدينتك "</item>
+        <item>"مركز ومدينة أسيوط"</item>
+        <item>"مركز ومدينة ديروط"</item>
+        <item>"مركز ومدينة القوصيه"</item>
+        <item>"مركز ومدينة أبنوب"</item>
+        <item>"مركز ومدينة منفلوط "</item>
+        <item>"مركز ومدينة أبو تيج"</item>
+        <item>"مركز ومدينة الغنايم"</item>
+        <item>"مركز ومدينة ساحل سليم"</item>
+        <item>"مركز ومدينة البدارى"</item>
+        <item>"مركز ومدينة صدفا"</item>
+        <item>"مركز ومدينة الفتح"</item>
+    </string-array>
+    <string-array name="Beheira">
+        <item>"اختار مدينتك"</item>
+        <item>"رشيد"</item>
+        <item>"شبراخيت"</item>
+        <item>"ايتاي البارود"</item>
+        <item>"أبو حمص"</item>
+        <item>"حوش عيسى"</item>
+        <item>"كفر الدوار"</item>
+        <item>"الدلنجات"</item>
+        <item>"كوم حمادة"</item>
+        <item>"دمنهور"</item>
+        <item>"المحمودية"</item>
+        <item>"إدكو"</item>
+        <item>"أبو المطامير"</item>
+        <item>"الرحمانية"</item>
+        <item>"النوبارية الجديدة"</item>
+        <item>"وادي النطرون"</item>
+        <item>"بدر بمديرية التحرير"</item>
+    </string-array>
+
+    <string-array name="Beni_Suef">
+        <item>"اختار مدينتك"</item>
+        <item>"مركز الواسطى"</item>
+        <item>"مدينة بني سويف"</item>
+        <item>"مدينة ناصر (بوش)"</item>
+        <item>"مركز إهناسيا"</item>
+        <item>"مدينة ببا"</item>
+        <item>"مركز سمسطا"</item>
+        <item>"امركز الفشن"</item>
+        <item>"مدينة بني سويف الجديدة"</item>
+    </string-array>
+
+    <string-array name="Dakahlia">
+        <item>"اختار مدينتك"</item>
+        <item>"المنصورة"</item>
+        <item>"السنبلاوين"</item>
+        <item>"ميت غمر"</item>
+        <item>"المطرية"</item>
+        <item>"بلقاس"</item>
+        <item>"دكرنس"</item>
+        <item>"المنزلة"</item>
+        <item>"طلخا"</item>
+        <item>"الجمالية"</item>
+        <item>"منية النصر"</item>
+        <item>"شربين"</item>
+        <item>"تمي الأمديد"</item>
+        <item>"بني عبيد"</item>
+        <item>"أجا"</item>
+        <item>"إخطاب"</item>
+        <item>"نبروة"</item>
+    </string-array>
+
+    <string-array name="Damietta">
+        <item>"اختار مدينتك"</item>
+        <item>"دمياط"</item>
+        <item>"فارسكور"</item>
+        <item>"الزرقا"</item>
+        <item>"كفر سعد"</item>
+        <item>"كفر البطيخ"</item>
+    </string-array>
+
+    <string-array name="Faiyum">
+        <item>"اختار مدينتك"</item>
+        <item>"ابشواي"</item>
+        <item>"طامية"</item>
+        <item>"الفيوم"</item>
+        <item>"اطسا"</item>
+        <item>"سنورس"</item>
+        <item>"الفيوم الجديدة"</item>
+        <item>"يوسف الصديق"</item>
+    </string-array>
+
+    <string-array name="Matruh">
+        <item>"اختار مدينتك"</item>
+        <item>"مركز الحمام"</item>
+        <item>"مركز العلمين"</item>
+        <item>"مركز الضبعة"</item>
+        <item>"مركز مرسى مطروح"</item>
+        <item>"مركز النجيلة"</item>
+        <item>"امركز براني"</item>
+        <item>"مركز السلوم"</item>
+        <item>"مركز سيوة"</item>
+    </string-array>
+    <string-array name="Minya">
+        <item>"اختار مدينتك"</item>
+        <item>"مغاغة"</item>
+        <item>"بني مزار"</item>
+        <item>"مطاي"</item>
+        <item>"سمالوط"</item>
+        <item>"مدينة المنيا"</item>
+        <item>"أبو قرقاص"</item>
+        <item>"ملوي"</item>
+        <item>"دير مواس"</item>
+    </string-array>
+    <string-array name="Monufia">
+        <item>"اختار مدينتك"</item>
+        <item>"اشمون"</item>
+        <item>"الباجور"</item>
+        <item>"بركة السبع"</item>
+        <item>"منوف"</item>
+        <item>"مدينة السادات"</item>
+        <item>"تلا"</item>
+        <item>"الشهداء"</item>
+        <item>"شبين الكوم"</item>
+        <item>"قويسنا"</item>
+    </string-array>
+    <string-array name="NorthSinai">
+        <item>"اختار مدينتك"</item>
+        <item>"بئر العبد"</item>
+        <item>"نخل"</item>
+        <item>"الحسنة"</item>
+        <item>"العريش"</item>
+        <item>"الشيخ زويد"</item>
+        <item>"رفح"</item>
+    </string-array>
+    <string-array name="PortSaid">
+        <item>"اختار مدينتك"</item>
+        <item>"مدينة بورفؤاد"</item>
+        <item>"حى الجنوب"</item>
+        <item>"حى العرب"</item>
+        <item>"حى الشرق"</item>
+        <item>"حى الضواحى"</item>
+        <item>"حى الزهور"</item>
+        <item>"حى المناخ"</item>
+    </string-array>
+    <string-array name="Qalyubia">
+        <item>"اختار مدينتك"</item>
+        <item>"بنها"</item>
+        <item>"قليوب"</item>
+        <item>"القناطر الخيرية"</item>
+        <item>"شبرا الخيمة"</item>
+        <item>"الخانكة"</item>
+        <item>"كفر شكر"</item>
+        <item>"شبين القناطر"</item>
+        <item>"طوخ"</item>
+    </string-array>
+    <string-array name="Qena">
+        <item>"اختار مدينتك"</item>
+        <item>"فرشوط"</item>
+        <item>"نجع حمادي"</item>
+        <item>"غرب قنا"</item>
+        <item>"قوس"</item>
+        <item>"دشنا"</item>
+        <item>"الوقف"</item>
+    </string-array>
+    <string-array name="Sharqia">
+        <item>"اختار مدينتك"</item>
+        <item>"الزقازيق"</item>
+        <item>"مدينة الحسينية"</item>
+        <item>"مدينة فاقوس"</item>
+        <item>"مدينة بلبيس"</item>
+        <item>"مدينة منيا القمح"</item>
+        <item>"مدينة أبو حماد"</item>
+        <item>"مدينة اولاد صقر"</item>
+        <item>"مدينة العاشر من رمضان"</item>
+    </string-array>
+    <string-array name="SouthSinai">
+        <item>"اختار مدينتك"</item>
+        <item>"ابو رديس"</item>
+        <item>"ابو زنيمه"</item>
+        <item>"نويبع"</item>
+        <item>"دهب"</item>
+        <item>"راس سدر"</item>
+        <item>"شرم الشيخ"</item>
+        <item>"سانت كاترين"</item>
+        <item>"الطور"</item>
+    </string-array>
+    <string-array name="Suez">
+        <item>"اختار مدينتك"</item>
+        <item>"حي السويس"</item>
+        <item>"حي الأربعين"</item>
+        <item>"حي عتاقة"</item>
+        <item>"حى الجناين"</item>
+        <item>"حى فيصل"</item>
+    </string-array>
+    <string-array name="Sohag">
+        <item>"اختار مدينتك"</item>
+        <item>"سوهاج"</item>
+        <item>"مركز دار السلام"</item>
+        <item>"مركز أخميم"</item>
+        <item>"مركز المراغة"</item>
+        <item>"مركز جرجا"</item>
+        <item>"مركز طهطا"</item>
+        <item>"مركز طما"</item>
+    </string-array>
+
+
+    <string-array name="RedSea">
+        <item>"اختار مدينتك"</item>
+        <item>"رأس غارب"</item>
+        <item>"الغردقه"</item>
+        <item>"سفاجا"</item>
+        <item>"القصير"</item>
+        <item>"مرسي علم"</item>
+        <item>"الشلاتين وحلايب"</item>
+    </string-array>
+    <string-array name="Gharbi">
+        <item>"اختار مدينتك"</item>
+        <item>"كفر الزيات"</item>
+        <item>"السنطة"</item>
+        <item>"المحلة الكبري"</item>
+        <item>"بسيون"</item>
+        <item>"زفتى"</item>
+        <item>"سمنود"</item>
+        <item>"طنطا"</item>
+        <item>"قطور"</item>
+    </string-array>
+    <string-array name="Giza">
+        <item>"اختار مدينتك"</item>
+        <item>"المهندسين"</item>
+        <item>"العجوزة"</item>
+        <item>"الكيت كات"</item>
+        <item>"إمبابة"</item>
+        <item>"الوراق"</item>
+        <item>"وراق العرب"</item>
+        <item>"الدقي"</item>
+        <item>"ميدان الجامعة"</item>
+        <item>"حديقة الحيوان"</item>
+        <item>"ميدان الجيزة"</item>
+        <item>"الهرم"</item>
+        <item>"فيصل"</item>
+        <item>"العمرانية"</item>
+    </string-array>
+    <string-array name="Ismailia">
+        <item>"اختار مدينتك"</item>
+        <item>"الإسماعيلية"</item>
+        <item>"التل الكبير"</item>
+        <item>"فايد"</item>
+        <item>"القنطرة شرق"</item>
+        <item>"القنطرة غرب"</item>
+        <item>"أبوصوير"</item>
+        <item>"القصاصين"</item>
+    </string-array>
+    <string-array name="KafrElSheikh">
+        <item>"اختار مدينتك"</item>
+        <item>"البرلس"</item>
+        <item>"بيلا"</item>
+        <item>"الحامول"</item>
+        <item>"دسوق"</item>
+        <item>"الرياض"</item>
+        <item>"سيدي سالم"</item>
+        <item>"فوه"</item>
+        <item>"قلين"</item>
+        <item>"كفر الشيخ"</item>
+        <item>"مطوبس"</item>
+    </string-array>
+    <string-array name="Luxor">
+        <item>"اختار مدينتك"</item>
+        <item>"الاقصر"</item>
+        <item>"مركز الزينية"</item>
+        <item>"مركز القرنة"</item>
+        <item>"مركز البياضية"</item>
+        <item>"مركز الطود"</item>
+        <item>"مركز أرمنت"</item>
+    </string-array>
+    <string name="pharmacy_mohamed_morad">د/محمد مراد</string>
+    <string name="pharmacy_mohamed_morad_address">ش6 اكتوبر- عين شمس بجوار سنترال النزهة نادي النخيل الجراج</string>
+    <string name="pharmacy_mohamed_morad_phone">02-20986675</string>
+    <string name="pharmacy_mohamed_morad_phone_wh">01152677565</string>
+    <string name="medicine_Rivarospire">ريفاروسبير</string>
+    <string name="medicine_Rivarospire_des">وهو مضاد للتجلط يمنع تنشيط الصفائح الدموية وبالتالي يمنع تكوين الجلطات عن طريق تثبيط عامل التخثر</string>
+    <string name="medicine_Iverzine">ايفرزين</string>
+    <string name="medicine_Iverzine_des">مضاد للطفيليات، حيث يستخدم لعلاج إلتهابات الجسم المختلفة التي تسببها طفيليات معينة، كما أنه فعال أيضاً ضد فيروسات معينة والإنفلونزا</string>
+
+    <string name="lab_Abdel_Naby">ا.د/عبد النبي</string>
+    <string name="lab_Abdel_Naby_address">المرج-123 ش المحطة امام مترو المرج القديمة</string>
+    <string name="lab_Abdel_Naby_phone">01003373900</string>
+    <string name="lab_Abdel_Naby_phone_wh">01150622323</string>
+
+    <string name="al_mogat_al_sawtiya">الموجات الصوتية</string>
+    <string name="normal_rays">الاشعة العادية</string>
+    <string name="ct_scan">الاشعة المقطعية</string>
+
+    <string name="all_vent">اولفنت</string>
+    <string name="all_vent_des">
+    يستخدم الدواء لعلاج الكحة المصاحبة لبعض أمراض الجهاز التنفسى مثل: التهاب الشعب الهوائية المزمن نزلات البرد والانفلونزا ضيق الشعب الهوائية</string>
+
+    <string name="ennervita">لإنيرفيتا</string>
+    <string name="ennervita_des">
+مكمل غذائي يستخدم للعلاج أو الوقاية من نقص الفيتامينات والمعادن بسبب سوء التغذية أو أمراض معينة.
+دعم صحة كبار السن والرياضيي    </string>
+
+<!--    <string name="welcome_back">مرحبا بعودتك،,</string>-->
+<!--    <string name="log_in">تسجيل الدخول !</string>-->
+    <string name="email">بريد إلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="do_not_have_an_account">لا تملك حساب</string>
+    <string name="create">انشاء</string>
+    <string name="log_in_">تسجيل الدخول</string>
+    <string name="full_name">الاسم</string>
+    <string name="email_address">عنوان بريد الكتروني</string>
+    <string name="password_">كلمه السر</string>
+    <string name="street_address">عنوان الشارع</string>
+    <string name="join_us">انضم إلينا</string>
+    <string name="phone">هاتف</string>
+    <string name="superx">سوبراكس</string>
+<string name="superx_des">
+التهاب اللوزتين أو الحلق أو البلعوم أو الحنجرة
+التهاب الشعب الهوائية الالتهاب الرئوي</string>
+
+    <string name="Targo">تارجو</string>
+    <string name="Targo_des">
+مضاد حيوى يستخدم لإلتهابات عدوى الجهاز التنفسى والبولى والمعوى
+    </string>
+    <string name="Solupred">سولوبريد</string>
+    <string name="Solupred_des">
+المرضى الذين يعانون من مرض كوفيد ١٩ الحاد قد يتعرضون للإصابة بالالتهابات التى قد تحدث فى الرئة أو فى أعضاء أخرى من الجسم.
+  </string>
+    <string name="Mask">كمامة</string>
+    <string-array name="countries">
+        <item>"القاهرة"</item>
+        <item>"الإسكندرية"</item>
+        <item>"أسوان"</item>
+        <item>"أسيوط"</item>
+        <item>"البحيرة"</item>
+        <item>"بنى سويف"</item>
+        <item>"الدقهلية"</item>
+        <item>"دمياط"</item>
+        <item>"الفيوم"</item>
+        <item>"الغربيه"</item>
+        <item>"الجيزة"</item>
+        <item>"الإسماعيلية"</item>
+        <item>"كفر الشيخ"</item>
+        <item>"الاقصر"</item>
+        <item>"مطروح"</item>
+        <item>"المنيا"</item>
+        <item>"المنوفية"</item>
+        <item>"شمال سيناء"</item>
+        <item>"بورسعيد"</item>
+        <item>"القليوبية"</item>
+        <item>"قنا"</item>
+        <item>"البحر الأحمر"</item>
+        <item>"الشرقية"</item>
+        <item>"سوهاج"</item>
+        <item>"جنوب سيناء"</item>
+        <item>"السويس"</item>
+    </string-array>
+    <string name="faceprotection">حماية الوجه</string>
+    <string name="glovestion">قفازات</string>
+    <string name="sanitizer">المطهر</string>
+    <string name="order">الطلب</string>
+    <string name="mostafa">مصطفي</string>
+    <string name="cancel">لا</string>
+    <string name="yes">نعم</string>
+    <string name="mostafa_">الدواء</string>
+    <string name="count">العدد:</string>
+    <string name="total_price">اجمالي السعر:</string>
+    <string name="total">اجمالي السعر:</string>
+    <string name="cartshope">عربة الشراء</string>
+    <string name="chest">مقطيعة علي الصدر</string>
+    <string name="chest_ava_day">اليوم الساعة 1 مساء</string>
+    <string name="book_now">احجز الان</string>
+    <string name="waiting_time">مدة الانتظار:</string>
+    <string name="price">السعر:</string>
+    <string name="pound">جنية</string>
+    <string name="scan_name">اسم الاشاعة:</string>
+    <string name="available">متاح</string>
+    <string name="minute">دقيقة</string>
+    <string name="abdomen">مقطعيه علي البطن او الحوض</string>
+    <string name="abdomen_ava">اليوم الساعة 1 مساء</string>
+    <string name="neck">مقطعيه علي الرقبه</string>
+    <string name="neck_ava">اليوم الساعة 1 مساء</string>
+    <string name="eye">مقطعيه علي العين</string>
+    <string name="teeth">اشعه عاديه علي الاسنان</string>
+    <string name="skull">اشعه عاديه علي الجمجمه</string>
+    <string name="hip">اشعه عاديه علي الحوض</string>
+    <string name="intestines">اشعه بالباريوم علي المعده والامعاء</string>
+    <string name="Sound">موجات صوتيه علي البطن</string>
+    <string name="Sound_neck">موجات صوتيه علي الرقبه</string>
+    <string name="Sound_eye">موجات صوتيه علي العين</string>
+    <string name="Sound_brain">موجات صوتيه علي المخn</string>
+    <string name="patient_name">اسم المريض</string>
+    <string name="patient_age">سن المريض</string>
+    <string name="patient_phone">هاتف المريض</string>
+    <string name="hospital_name">مستشفى الدمرداش</string>
+    <string name="hospital_address">الدمرداش، الدمرداش، الوايلى، محافظة القاهرة‬</string>
+    <string name="hospital_phone">02 24346001</string>
+    <string name="hospital_phone_wh">0226821098</string>
+    <string name="scan_price">سعر الاشاعة:</string>
+    <string name="scan_reservation_time">وقت الحجز:</string>
+    <string name="scan_waiting_time">وقت الانتظار:</string>
+    <string name="customer_name">اسم المريض:</string>
+    <string name="customer_phone">هاتف المريض:</string>
+    <string name="customer_age">سن المريض:</string>
+    <string name="news">الاخبار</string>
+    <string name="your_name">الاسم</string>
+    <string name="your_phone">الهاتف</string>
+    <string name="your_address">عنوانك</string>
+    <string name="your_age">عمرك</string>
+    <string name="male">ولد</string>
+    <string name="female">بنت</string>
+    <string name="confirm">تاكيد</string>
+    <string name="map">الخريطة</string>
+    <string name="log_in">LOG In !</string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="total_pricec">اجمالي السعر</string>
+    <string name="title_activity_live_tracting">الخريطة</string>
+</resources>

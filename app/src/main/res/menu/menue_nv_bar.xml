@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/medicine"
+        android:title="@string/medicine"
+        android:icon="@drawable/ic_drugs"
+        />
+    <item
+        android:id="@+id/Supplies"
+        android:title="@string/supplies"
+        android:icon="@drawable/ic_supples"
+        />
+
+</menu>

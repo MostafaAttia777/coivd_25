@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:id="@+id/my_drawerLayout_health"
+    android:layout_height="match_parent"
+    tools:context=".Ministry.Health_of_egypt">
+
+
+    <FrameLayout
+        android:id="@+id/my_tv_health"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/my_nav_health"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/healthy_header"
+        app:menu="@menu/healthy_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>
